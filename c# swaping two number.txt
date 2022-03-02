@@ -1,0 +1,23 @@
+using System;
+
+namespace ConsoleApp30
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int number1, number2, temp;
+            Console.WriteLine("enter a value number1=");
+            number1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("enter a value number2=");
+            number2 = int.Parse(Console.ReadLine());
+            temp = number1;
+            number1 = number2;
+            number2 = temp;
+            Console.WriteLine("after swap");
+            Console.WriteLine("enter a value number1=" + number1);
+            Console.WriteLine("enter a value number2=" + number2);
+
+        }
+    }
+}
